@@ -26,7 +26,10 @@ variable "ubuntu_tag" {
   description = "This is a variable to manage ec2 tags"
   type        = map(any)
   default = {
-    "Name" = "Ubuntu node"
+    "Name" = "Ubuntu Linux node"
+    "Dept" = "Development"
+    "Faculty" = "Infrastructure"
+    "Can destroy" = "Yes"
   }
 }
 
@@ -34,7 +37,7 @@ variable "amazon_linux_tag" {
   description = "Additional resource tags"
   type        = map(any)
   default = {
-    "Name" = "Linux node"
+    "Name" = "AWS Linux  node"
     "Dept" = "Development"
     "Faculty" = "Infrastructure"
     "Can destroy" = "Yes"
