@@ -37,5 +37,6 @@ variable "amazon_linux_tag" {
     "Name" = "Linux node"
     "Dept" = "Development"
     "Faculty" = "Infrastructure"
+    "Can destroy" = "Yes"
   }
 }
