@@ -35,5 +35,7 @@ variable "amazon_linux_tag" {
   type        = map(any)
   default = {
     "Name" = "Linux node"
+    "Dept" = "Development"
+    "Faculty" = "Infrastructure"
   }
 }
