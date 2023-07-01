@@ -43,3 +43,6 @@ variable "amazon_linux_tag" {
     "Can destroy" = "Yes"
   }
 }
+
+variable "bucket" {}
+variable "key" {}
