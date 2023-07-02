@@ -1,4 +1,4 @@
-variable "Linux_ec2_ami" {
+variable "ec2_ami" {
   description = "This is a variable to manage AMI"
   type        = string
   default     = "ami-04b1c88a6bbd48f8e"
@@ -33,11 +33,11 @@ variable "ec2_instance_type" {
   }
 }**/
 
-variable "amazon_linux_tag" {
+variable "default_tag" {
   description = "Additional resource tags"
   type        = map(any)
   default = {
-    "Name" = "AWS Linux  node"
+    "Name" = "Dev Application Node"
     "Dept" = "Development"
     "Faculty" = "Infrastructure"
     "Can destroy" = "Yes"

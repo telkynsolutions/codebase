@@ -1,7 +1,7 @@
 
 resource "aws_instance" "ec2_amazon_Linux" {
 
-  ami           = var.Linux_ec2_ami
+  ami           = var.ec2_ami
   instance_type = var.ec2_instance_type
   key_name      = var.ec2_key_name
 
@@ -12,7 +12,7 @@ resource "aws_instance" "ec2_amazon_Linux" {
 yum install java-1.8.0-amazon-corretto-devel.x86_64 maven git -y
 EOF
 
-  tags = var.amazon_linux_tag
+  tags = var.default_tag
 }
 
 /**resource "aws_instance" "ec2_ubuntu" {
