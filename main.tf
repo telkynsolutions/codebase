@@ -15,7 +15,7 @@ EOF
   tags = var.amazon_linux_tag
 }
 
-resource "aws_instance" "ec2_ubuntu" {
+/**resource "aws_instance" "ec2_ubuntu" {
 
   ami               = var.Ubuntu_ec2_ami
   instance_type     = var.ec2_instance_type
@@ -29,5 +29,5 @@ apt install maven git openjdk-8-jdk -y
 EOF
   tags              = var.ubuntu_tag
 
-}
+}**/
 

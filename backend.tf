@@ -21,11 +21,11 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-resource "aws_vpc" "akin_vpc" {
+/**resource "aws_vpc" "akin_vpc" {
   cidr_block       = "10.0.0.0/16"
   instance_tenancy = "default"
 
   tags = {
     Name = "akin_vpc"
   }
-}
+}**/
