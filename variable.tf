@@ -38,7 +38,7 @@ variable "default_tag" {
   description = "Additional resource tags"
   type        = map(any)
   default = {
-    "Name" = "Dev Application Node"
+    "Name" = "Dev Application Node test"
     "Dept" = "Development"
     "Faculty" = "Infrastructure"
     "Can destroy" = "Yes"
