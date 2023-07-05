@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-  //bucket = "telkyn-terraform-state-files"
-  //key = "dev/terraform.tfstate"
-  bucket = var.bucket
-  key = var.key
+  bucket = "telkyn-terraform-state-files"
+  key = "dev/terraform.tfstate"
+  //bucket = var.bucket
+  //key = var.key
   region = "eu-west-1"
   }
 
