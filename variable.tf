@@ -45,5 +45,5 @@ variable "default_tag" {
   }
 }
 
-variable "bucket" {}
-variable "key" {}
+//variable "bucket" {}
+//variable "key" {}
