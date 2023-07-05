@@ -33,6 +33,7 @@ variable "ec2_instance_type" {
   }
 }**/
 
+
 variable "default_tag" {
   description = "Additional resource tags"
   type        = map(any)
