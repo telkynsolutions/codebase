@@ -12,7 +12,7 @@ resource "aws_instance" "ec2_amazon_Linux" {
 yum install java-1.8.0-amazon-corretto-devel.x86_64 maven git -y
 EOF
 
-  tags = var.default_tag
+  tags = var.default_tags
 }
 
 /**resource "aws_instance" "ec2_ubuntu" {
